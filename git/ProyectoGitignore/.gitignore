@@ -1,0 +1,7 @@
+*.sh3
+info.txt
+marcos/sensible.txt
+Registros/
+*.class
+*.pcy
+*.dll
