@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer formulario</title>
+</head>
+<body>
+    <center>
+        <h1>FORMULARIOS</h1>
+        <h3>PQR</h3>
+    </center>
+
+    <form action="registrarDatos.py" method="post">
+        nombre:
+        <input type="text" name="camp_nombre" size="20">
+        <br><br>
+        Gmail:
+        <input type="text" name="cmp_gmail" size="12">
+        <br><br>
+        Describa su queja: <br>
+        <textarea name="tex_comentarios" cols="60" rows="5" wrap="soft"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

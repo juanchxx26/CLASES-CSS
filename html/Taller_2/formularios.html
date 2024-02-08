@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casillas</title>
+    
+    <style>
+        .formulario-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+        <form action="registrar.py" method="post">
+            Nombre: 
+            <input type="text" name="cmp_nombre" size="30"><br><br>
+            Apellidos: 
+            <input type="text" name="cmp_apellido" size="30"><br><br>
+
+            F. Nacimiento: 
+            <input type="text" name="cmp_fechaNacimineto" size="15"><br><br>
+
+            Calle y Numero: 
+            <input type="text" name="cmp_calleNum" size="30"><br><br>
+
+            Codigo Postal:
+            <input type="text" name="codigoPostal" size="5"><br><br>
+
+            Provincia:
+            <input type="text" name="provincia" size="20">&nbsp;&nbsp;&nbsp;&nbsp;
+
+            Teléfono:<input type="text" name="telefono" size="30"><br><br>
+
+
+            Sexo:
+            <input type="radio" name="sexo">Hombre 
+            <input type="radio" name="sexo">Mujer
+
+            &nbsp;&nbsp;&nbsp;&nbsp;Estado civil:
+            <select name="jornada">
+                    <option value="1">Soltero/a</option>
+                    <option value="2">Casado/a</option>
+                    <option value="1">Viudo/a</option>
+                    <option value="2">Divorciado/a</option>
+
+            </select><br><br>
+            
+            
+            Idiomas:
+            <input type="checkbox" name="español">español 
+            <input type="checkbox" name="France">Frances
+            <input type="checkbox" name="inglés">Inglé
+            <input type="checkbox" name="aleman">Alemán
+
+        <br><br>
+            Comentarios Personales: 
+            <textarea name="tex_comentarios" cols="40" rows="3" wrap="soft"></textarea><br><br>
+
+            Pulse Aqui:
+            <input type="submit" value="enviar los datos">
+            <input type="reset" value="Borrar los datos">
+
+        </form>
+    
+</body>
+</html>

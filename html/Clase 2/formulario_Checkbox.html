@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casillas</title>
+</head>
+<body>
+    
+    <form action="registrar.py" method="post">
+        Nombre: 
+        <input type="text" name="cmp_nombre" size="30"><br><br>
+        Seleccione los lenguajes que conoce: <br>
+        <input type="checkbox" name="python">Python <br>
+        <input type="checkbox" name="java">Java<br>
+        <input type="checkbox" name="cchar">C#<br>
+        <input type="checkbox" name="php">Php<br><br>
+        Nivel de estudio maximo: <br><br>
+        <hr>
+        <input type="radio" name="estudios">Primaria <br>
+        <input type="radio" name="estudios">Bachillerto <br>
+        <input type="radio" name="estudios">Pregrado <br>
+        <input type="radio" name="estudios">postgrado <br> <br>
+        <hr>
+        Pais Origen: <br><br>
+        <select name="Pais" >
+            <option value="0">----</option>
+            <option value="1">Colombia</option>    
+            <option value="2">Venezuela</option>
+            <option value="3">Peru</option>
+            <option value="4">Ecuador</option>
+            <option value="5">Chile</option>
+            <option value="6">Islandia</option>
+            </select><br>
+            <hr>
+            
+            Frameworks Backend que conoce (use <strong>ctrl</strong> para seleccionar varios): <br><br>
+            <select name="marcosdetrabajo[]" size="4" multiple>
+                <option value="1">Djando</option>
+                <option value="2">Larabel</option>
+                <option value="3">SpringBoot</option>
+                <option value="4">Ruby On Rails</option>
+            </select><br><hr>
+
+            Jornada de trabajo:
+            <select name="jornada">
+
+                <optgroup label="Mañana">
+                    <option value="1">8:00 a.m - 10:00a.m</option>
+                    <option value="2">10:00 a.m _ 12:00 a.m</option>
+                </optgroup>
+
+                <optgroup label="Tarde">
+                    <option value="1">2:00 p.m - 4:00 p.m</option>
+                    <option value="2">4:00 p.m - 6:00 p.m</option>
+                    <option value="3"> 6:00 p.m - 8:00 p.m</option>
+                </optgroup>
+
+            </select><br><hr>
+
+            Marque su clave: <br>
+            <input type="button" name="boton9" value="9">
+            <input type="button" name="boton8" value="8">
+            <input type="button" name="boton7" value="7"><br>
+            <input type="button" name="boton6" value="6">
+            <input type="button" name="boton5" value="5">
+            <input type="button" name="boton4" value="4"><br>
+            <input type="button" name="boton3" value="3">
+            <input type="button" name="boton2" value="2">
+            <input type="button" name="boton1" value="1"><br>
+            <input type="button" name="boton0" value="0">
+
+
+
+
+
+
+            <hr><br><input type="submit" value="enviar">
+            <input type="reset" value="Limpiar">
+
+    </form>
+
+</body>
+</html>
