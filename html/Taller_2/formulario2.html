@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de preferencias</title>
+</head>
+<body>
+
+<h1>Formulario de preferencias</h1>
+
+<fieldset>
+    <legend>Indique su preferencia por favor:</legend>
+    Elija una fecha:
+    <input type="date" name="fecha" placeholder="dd/mm/aaaa"><br><br>
+    Elija un fichero:
+    <input type="file" name="fichero"><br><br>
+    <input type="radio" name="procesador" value="amd">
+    AMD
+    <input type="radio" name="procesador" value="intel_i5">
+    Intel i5
+    <input type="radio" name="procesador" value="intel_i7">
+  Intel i7<br><br>
+</fieldset>
+<br>
+
+<fieldset>
+  <legend>Indique sus preferencias</legend><br>
+  <input type="radio" name="matematicas">Matematicas
+  <input type="radio" name="historia" >Historia
+  <input type="radio" name="geografia" >Geografia
+  <input type="radio" name="lengua">Lengua <br><br>
+
+  Nombre
+  <input type="text" name="nombre"><br><br>
+  Apellidos
+  <input type="text" name="apellidos"><br><br>
+  Direccion
+  <input type="text" name="direccion"><br><br>
+Elija un color:
+  <input type="color" name="color" value="#000000"><br><br>
+
+  <textarea name="comentario" rows="4" cols="50" placeholder="Utilice este cuadro para escribir"></textarea><br><br>
+
+  Elija una fecha:
+  <input type="date" name="fecha" placeholder="dd/mm/aaaa"><br>
+
+  <select name="idioma">
+    <option value="ingles">Inglés</option>
+    <option value="español">Español</option>
+  </select>
+    <br><br>
+    Elija una Hora
+    <input type="time" name="hora">
+    <br><br>
+    Elija un fichero:
+    <input type="file" name="fichero"><br><br>
+
+  Mujer
+  <input type="checkbox" name="hombre">
+  Hombre
+  <input type="checkbox" name="mujer">
+
+  <br>
+</fieldset>
+
+</body>
+</html>
